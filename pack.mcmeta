@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 7,
-    "description": "Raises the height of the end dimention"
+    "pack_format": 8,
+    "description": "Raises the height of the end dimension."
   }
 }
