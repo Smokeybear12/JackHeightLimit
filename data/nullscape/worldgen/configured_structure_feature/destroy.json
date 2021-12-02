@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:bastion_remnant",
-  "config": {
-    "start_pool": "nullscape:destroy_start",
-    "size": 6
-  }
-}

@@ -1,0 +1,1 @@
+# The commands here will be executed when the datapack loads

@@ -1,1 +1,0 @@
-scoreboard objectives add ns.tar_time dummy
