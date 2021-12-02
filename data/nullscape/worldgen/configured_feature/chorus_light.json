@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 8
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:count_noise_biased",
+          "config": {
+            "noise_to_count_ratio": 10,
+            "noise_factor": 175,
+            "noise_offset": 0
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:chance",
+              "config": {
+                "chance": 80
+              }
+            },
+            "feature": {
+              "type": "minecraft:chorus_plant",
+              "config": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}

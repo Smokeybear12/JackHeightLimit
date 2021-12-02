@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:carving_mask",
+      "config": {
+        "step": "air"
+      }
+    },
+    "feature": {
+      "type": "minecraft:simple_block",
+      "config": {
+        "to_place": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:smooth_quartz"
+          }
+        },
+        "place_on": [
+          {
+            "Name": "minecraft:smooth_quartz"
+          },
+          {
+            "Name": "minecraft:air"
+          }
+        ],
+        "place_in": [
+          {
+            "Name": "minecraft:air"
+          }
+        ],
+        "place_under": [
+          {
+            "Name": "minecraft:smooth_quartz"
+          },
+          {
+            "Name": "minecraft:air"
+          }
+        ]
+      }
+    }
+  }
+}

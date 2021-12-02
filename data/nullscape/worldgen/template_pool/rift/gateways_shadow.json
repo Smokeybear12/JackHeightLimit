@@ -1,0 +1,36 @@
+{
+  "name": "nullscape:rift/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "nullscape:rift/gateway_shadow1",
+        "processors": "nullscape:void_suppression"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "nullscape:rift/gateway_shadow2",
+        "processors": "nullscape:void_suppression"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    },
+    {
+      "weight": 150,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

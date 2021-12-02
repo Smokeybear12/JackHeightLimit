@@ -1,0 +1,83 @@
+{
+  "surface_builder": "minecraft:end",
+  "depth": 0.115,
+  "scale": 0.2,
+  "temperature": 2,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "the_end",
+  "player_spawn_friendly": false,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 10518688,
+    "water_color": 7172215,
+    "water_fog_color": 329011,
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:block.amethyst_block.chime",
+      "tick_chance": 0.004
+    },
+    "particle": {
+      "options": {
+        "type": "falling_obsidian_tear"
+      },
+      "probability": 0.01
+    }
+  },
+  "starts": [
+    "minecraft:end_city"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    ["nullscape:asteroid_carver"],
+    [],
+    [],
+    [],
+    [
+      "nullscape:crystal/blackstone",
+      "nullscape:crystal/obsidian",
+      "nullscape:crystal/half_crying",
+      "nullscape:crystal/crying",
+      "nullscape:crystal/amethyst",
+      "nullscape:crystal/inverse/blackstone",
+      "nullscape:crystal/inverse/obsidian",
+      "nullscape:crystal/inverse/half_crying",
+      "nullscape:crystal/inverse/crying",
+      "nullscape:crystal/inverse/amethyst"
+    ],
+    [
+      "nullscape:crystal/light_down",
+      "nullscape:crystal/light_up"
+
+    ]
+  ]
+}

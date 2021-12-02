@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 500,
+        "extra_count": 4,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 40,
+                "noise_factor": 144,
+                "noise_offset": 0.4
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 33,
+                    "noise_offset": 0.05
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": -1,
+                        "noise_factor": 33,
+                        "noise_offset": -0.05
+                      }
+                    },
+                    "feature": "nullscape:tar/cracks_start"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

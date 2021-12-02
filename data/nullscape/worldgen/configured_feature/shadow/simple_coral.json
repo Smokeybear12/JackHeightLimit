@@ -1,0 +1,127 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:dead_fire_coral_fan",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:dead_tube_coral_fan",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:dead_brain_coral_fan",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 4,
+          "data": {
+            "Name": "minecraft:dead_bubble_coral_fan",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:dead_horn_coral_fan",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:dead_fire_coral",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 4,
+          "data": {
+            "Name": "minecraft:dead_tube_coral",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:dead_bubble_coral",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:dead_horn_coral",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:dead_tube_coral",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        }
+      ]
+    },
+    "place_on": [
+      {
+        "Name": "minecraft:dead_brain_coral_block"
+      },
+      {
+        "Name": "minecraft:dead_bubble_coral_block"
+      },
+      {
+        "Name": "minecraft:dead_fire_coral_block"
+      },
+      {
+        "Name": "minecraft:dead_horn_coral_block"
+      },
+      {
+        "Name": "minecraft:dead_fire_coral_block"
+      }
+    ],
+    "place_in": [
+      {
+        "Name": "minecraft:air"
+      }
+    ],
+    "place_under": [
+      {
+        "Name": "minecraft:air"
+      }
+    ]
+  }
+}

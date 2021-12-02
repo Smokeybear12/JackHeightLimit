@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:carving_mask",
+      "config": {
+        "step": "air"
+      }
+    },
+    "feature": {
+      "type": "minecraft:ore",
+      "config": {
+        "size": 17,
+        "discard_chance_on_air_exposure": 0,
+        "targets": [
+          {
+            "target": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:obsidian",
+              "probability": 0.03
+            },
+            "state": {
+              "Name": "minecraft:crying_obsidian"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

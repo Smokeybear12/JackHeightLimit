@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 5000,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:heightmap",
+              "config": {
+                "heightmap": "WORLD_SURFACE"
+              }
+            },
+            "feature": {
+              "type": "minecraft:netherrack_replace_blobs",
+              "config": {
+                "state": {
+                  "Name": "minecraft:air"
+                },
+                "target": {
+                  "Name": "minecraft:end_stone"
+                },
+                "radius": 12
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

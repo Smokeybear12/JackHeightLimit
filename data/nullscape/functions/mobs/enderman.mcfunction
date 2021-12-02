@@ -1,0 +1,1 @@
+#execute as @s[predicate=nullscape:riftspace,predicate=nullspace:2_percent] run function nullscape:mobs/enderman_anger

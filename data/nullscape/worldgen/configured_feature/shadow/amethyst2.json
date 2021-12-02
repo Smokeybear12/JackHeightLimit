@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 2700,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "above_bottom": 0
+                  },
+                  "max_inclusive": {
+                    "below_top": 0
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 140,
+                    "noise_offset": 0.08
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": -1,
+                        "noise_factor": 140,
+                        "noise_offset": -0.08
+                      }
+                    },
+                    "feature": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "decorator": {
+                          "type": "minecraft:count_noise_biased",
+                          "config": {
+                            "noise_to_count_ratio": 1,
+                            "noise_factor": 337,
+                            "noise_offset": -0.35
+                          }
+                        },
+                        "feature": "nullscape:shadow/amethyst_base"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

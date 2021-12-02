@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:village",
+  "config": {
+    "start_pool": "nullscape:rift/gateways_shadow",
+    "size": 7
+  }
+}

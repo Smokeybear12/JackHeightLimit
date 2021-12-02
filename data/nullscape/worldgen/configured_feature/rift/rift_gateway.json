@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:carving_mask",
+      "config": {
+        "step": "air"
+      }
+    },
+    "feature": {
+      "type": "minecraft:simple_block",
+      "config": {
+        "to_place": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:end_gateway"
+          }
+        },
+        "place_on": [
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:obsidian"
+          },
+          {
+            "Name": "minecraft:crying_obsidian"
+          },
+          {
+            "Name": "minecraft:end_stone"
+          }
+        ],
+        "place_in": [
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:obsidian"
+          },
+          {
+            "Name": "minecraft:crying_obsidian"
+          },
+          {
+            "Name": "minecraft:end_stone"
+          }
+        ],
+        "place_under": [
+          {
+            "Name": "minecraft:air"
+          }
+        ]
+      }
+    }
+  }
+}
